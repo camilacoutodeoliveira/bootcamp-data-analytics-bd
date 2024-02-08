@@ -22,7 +22,7 @@ alunos = cursor.execute('SELECT * FROM alunos')
 alunos_gt_20 = cursor.execute('SELECT * FROM alunos WHERE idade > 20')
 
 # c) Selecionar os alunos do curso de "Engenharia" em ordem alfabética.
-alunos_eng = cursor.execute('SELECT * FROM alunos WHERE curso == "Engenharia"')
+alunos_eng = cursor.execute('SELECT * FROM alunos WHERE curso == "Engenharia" ORDER BY nome ASC')
 for aluno in alunos_eng:
     print(aluno)
 
