@@ -9,8 +9,6 @@ SQLite é um sistema de gerenciamento de banco de dados relacional (SGBDR) que n
 
 ## Principais Comandos
 
-Aqui estão alguns dos comandos mais comuns usados no SQLite:
-
 ### Criação de Tabelas
 
 ```sql
