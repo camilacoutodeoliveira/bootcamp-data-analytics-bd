@@ -1,7 +1,7 @@
 # Comandos Básicos do SQLite
 
-Este repositório contém a resolução de uma lista de exercíos para práticar os comandos em SQL;
-E aqui você encontra informações sobre os principais comandos de banco de dados SQLite, um banco de dados relacional leve e embutido.
+Este repositório contém a resolução de uma lista de exercíos para práticar os comandos em SQL.
+<p>E aqui você encontra informações sobre os principais comandos de banco de dados SQLite, um banco de dados relacional leve e embutido.
 
 ## Introdução ao SQLite
 
