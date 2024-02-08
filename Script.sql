@@ -1,7 +1,6 @@
 # 1. Crie uma tabela chamada "alunos" com os seguintes campos: id (inteiro), nome (texto), idade (inteiro) e curso (texto).
 CREATE TABLE alunos (id INT, nome VARCHAR(100), idade INT, curso VARCHAR(100))
 
-
 # 2. Insira pelo menos 5 registros de alunos na tabela que você criou no exercício anterior.
 INSERT INTO alunos(id, nome, idade, curso) VALUES (1, "Camila", 31, "Data Analytics")
 INSERT INTO alunos(id, nome, idade, curso) VALUES (2, "Luana", 27, "Educação Fisica")
@@ -18,7 +17,7 @@ SELECT * FROM alunos
 SELECT * FROM alunos WHERE idade > 20
 
 # c) Selecionar os alunos do curso de "Engenharia" em ordem alfabética.
-SELECT * FROM alunos WHERE curso == "Engenharia"
+SELECT * FROM alunos WHERE curso == "Engenharia" ORDER BY nome ASC
 
 # d) Contar o número total de alunos na tabela
 SELECT COUNT(*) AS total FROM alunos
